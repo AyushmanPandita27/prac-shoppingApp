@@ -38,7 +38,7 @@ const firebaseConfig = {
 
     //to det the data in db if the intsance  is happening
 if(!userSnapshot.exists()){
-  const {displayName, email} = uAth;
+  const {displayName, email} = auth;
   const createdDate = new Date();
   
   try {
